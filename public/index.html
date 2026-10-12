@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Haberler</title>
+  <meta name="description" content="Türkiye'nin önde gelen kaynaklarından güncel haberler.">
+  <meta name="theme-color" content="#c62828">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Haberler">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Haberler</h1>
+    <button id="refresh" class="icon-btn" aria-label="Yenile">↻</button>
+  </header>
+
+  <div class="controls">
+    <input id="search" type="search" placeholder="Haberlerde ara" aria-label="Haberlerde ara">
+    <nav id="sources" class="chips" aria-label="Kaynaklar"></nav>
+  </div>
+
+  <main>
+    <p id="status" class="status" role="status"></p>
+    <ul id="list" class="list"></ul>
+  </main>
+
+  <nav class="tabbar" aria-label="Sekmeler">
+    <button class="tab active" data-tab="all">Tümü</button>
+    <button class="tab" data-tab="saved">Kaydedilenler</button>
+  </nav>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

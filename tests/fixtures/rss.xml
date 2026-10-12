@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Örnek Kaynak</title>
+    <item>
+      <title><![CDATA[İstanbul'da &quot;yağmur&quot; uyarısı]]></title>
+      <link>https://ornek.com/haber/1</link>
+      <description><![CDATA[<img src="https://ornek.com/1.jpg"> Meteoroloji <b>sağanak</b> uyardı.]]></description>
+      <pubDate>Mon, 12 Oct 2026 10:00:00 +0300</pubDate>
+    </item>
+    <item>
+      <title>Ekonomide son durum</title>
+      <link>https://ornek.com/haber/2</link>
+      <description>Piyasalar güne yükselişle başladı &amp; dolar düştü.</description>
+      <media:content url="https://ornek.com/2.jpg" medium="image"/>
+      <pubDate>Mon, 12 Oct 2026 11:00:00 +0300</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>https://ornek.com/bos</link>
+    </item>
+  </channel>
+</rss>
